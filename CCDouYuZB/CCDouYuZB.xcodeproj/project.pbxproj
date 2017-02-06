@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		8045D6791E48107000F7B2C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8045D6781E48107000F7B2C6 /* AppDelegate.swift */; };
-		8045D67B1E48107000F7B2C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8045D67A1E48107000F7B2C6 /* ViewController.swift */; };
 		8045D67E1E48107000F7B2C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8045D67C1E48107000F7B2C6 /* Main.storyboard */; };
 		8045D6801E48107000F7B2C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8045D67F1E48107000F7B2C6 /* Assets.xcassets */; };
 		8045D6831E48107000F7B2C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8045D6811E48107000F7B2C6 /* LaunchScreen.storyboard */; };
 		8045D68E1E48107100F7B2C6 /* CCDouYuZBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8045D68D1E48107100F7B2C6 /* CCDouYuZBTests.swift */; };
 		8045D6991E48107100F7B2C6 /* CCDouYuZBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8045D6981E48107100F7B2C6 /* CCDouYuZBUITests.swift */; };
+		8045D6AE1E48200B00F7B2C6 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8045D6AD1E48200B00F7B2C6 /* BaseTabBarController.swift */; };
+		8045D6B01E48201F00F7B2C6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8045D6AF1E48201F00F7B2C6 /* BaseViewController.swift */; };
+		8045D6B21E48202E00F7B2C6 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8045D6B11E48202E00F7B2C6 /* BaseNavigationController.swift */; };
+		8045D6B51E48205B00F7B2C6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8045D6B31E48205B00F7B2C6 /* HomeViewController.swift */; };
+		8045D6B61E48205B00F7B2C6 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8045D6B41E48205B00F7B2C6 /* HomeViewController.xib */; };
+		8045D6B91E48206F00F7B2C6 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8045D6B71E48206F00F7B2C6 /* LiveViewController.swift */; };
+		8045D6BA1E48206F00F7B2C6 /* LiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8045D6B81E48206F00F7B2C6 /* LiveViewController.xib */; };
+		8045D6BD1E48207800F7B2C6 /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8045D6BB1E48207800F7B2C6 /* FollowViewController.swift */; };
+		8045D6BE1E48207800F7B2C6 /* FollowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8045D6BC1E48207800F7B2C6 /* FollowViewController.xib */; };
+		8045D6C11E48208300F7B2C6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8045D6BF1E48208300F7B2C6 /* ProfileViewController.swift */; };
+		8045D6C21E48208300F7B2C6 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8045D6C01E48208300F7B2C6 /* ProfileViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,6 @@
 /* Begin PBXFileReference section */
 		8045D6751E48107000F7B2C6 /* CCDouYuZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCDouYuZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8045D6781E48107000F7B2C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8045D67A1E48107000F7B2C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8045D67D1E48107000F7B2C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8045D67F1E48107000F7B2C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8045D6821E48107000F7B2C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,17 @@
 		8045D6941E48107100F7B2C6 /* CCDouYuZBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCDouYuZBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8045D6981E48107100F7B2C6 /* CCDouYuZBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCDouYuZBUITests.swift; sourceTree = "<group>"; };
 		8045D69A1E48107100F7B2C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8045D6AD1E48200B00F7B2C6 /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		8045D6AF1E48201F00F7B2C6 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		8045D6B11E48202E00F7B2C6 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		8045D6B31E48205B00F7B2C6 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8045D6B41E48205B00F7B2C6 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		8045D6B71E48206F00F7B2C6 /* LiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
+		8045D6B81E48206F00F7B2C6 /* LiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveViewController.xib; sourceTree = "<group>"; };
+		8045D6BB1E48207800F7B2C6 /* FollowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
+		8045D6BC1E48207800F7B2C6 /* FollowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FollowViewController.xib; sourceTree = "<group>"; };
+		8045D6BF1E48208300F7B2C6 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8045D6C01E48208300F7B2C6 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +117,8 @@
 		8045D6771E48107000F7B2C6 /* CCDouYuZB */ = {
 			isa = PBXGroup;
 			children = (
+				8045D6A61E481C3B00F7B2C6 /* Classes */,
 				8045D6781E48107000F7B2C6 /* AppDelegate.swift */,
-				8045D67A1E48107000F7B2C6 /* ViewController.swift */,
 				8045D67C1E48107000F7B2C6 /* Main.storyboard */,
 				8045D67F1E48107000F7B2C6 /* Assets.xcassets */,
 				8045D6811E48107000F7B2C6 /* LaunchScreen.storyboard */,
@@ -123,6 +143,72 @@
 				8045D69A1E48107100F7B2C6 /* Info.plist */,
 			);
 			path = CCDouYuZBUITests;
+			sourceTree = "<group>";
+		};
+		8045D6A61E481C3B00F7B2C6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8045D6A71E481C3B00F7B2C6 /* BaseMain */,
+				8045D6A91E481C3B00F7B2C6 /* Home */,
+				8045D6AA1E481C3B00F7B2C6 /* Live */,
+				8045D6A81E481C3B00F7B2C6 /* Follow */,
+				8045D6AB1E481C3B00F7B2C6 /* Profile */,
+				8045D6AC1E481C3B00F7B2C6 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8045D6A71E481C3B00F7B2C6 /* BaseMain */ = {
+			isa = PBXGroup;
+			children = (
+				8045D6AD1E48200B00F7B2C6 /* BaseTabBarController.swift */,
+				8045D6AF1E48201F00F7B2C6 /* BaseViewController.swift */,
+				8045D6B11E48202E00F7B2C6 /* BaseNavigationController.swift */,
+			);
+			path = BaseMain;
+			sourceTree = "<group>";
+		};
+		8045D6A81E481C3B00F7B2C6 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				8045D6BB1E48207800F7B2C6 /* FollowViewController.swift */,
+				8045D6BC1E48207800F7B2C6 /* FollowViewController.xib */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		8045D6A91E481C3B00F7B2C6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8045D6B31E48205B00F7B2C6 /* HomeViewController.swift */,
+				8045D6B41E48205B00F7B2C6 /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8045D6AA1E481C3B00F7B2C6 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				8045D6B71E48206F00F7B2C6 /* LiveViewController.swift */,
+				8045D6B81E48206F00F7B2C6 /* LiveViewController.xib */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		8045D6AB1E481C3B00F7B2C6 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8045D6BF1E48208300F7B2C6 /* ProfileViewController.swift */,
+				8045D6C01E48208300F7B2C6 /* ProfileViewController.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8045D6AC1E481C3B00F7B2C6 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +318,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8045D6C21E48208300F7B2C6 /* ProfileViewController.xib in Resources */,
 				8045D6831E48107000F7B2C6 /* LaunchScreen.storyboard in Resources */,
+				8045D6BE1E48207800F7B2C6 /* FollowViewController.xib in Resources */,
 				8045D6801E48107000F7B2C6 /* Assets.xcassets in Resources */,
 				8045D67E1E48107000F7B2C6 /* Main.storyboard in Resources */,
+				8045D6BA1E48206F00F7B2C6 /* LiveViewController.xib in Resources */,
+				8045D6B61E48205B00F7B2C6 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +349,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8045D67B1E48107000F7B2C6 /* ViewController.swift in Sources */,
+				8045D6B51E48205B00F7B2C6 /* HomeViewController.swift in Sources */,
+				8045D6B21E48202E00F7B2C6 /* BaseNavigationController.swift in Sources */,
+				8045D6AE1E48200B00F7B2C6 /* BaseTabBarController.swift in Sources */,
 				8045D6791E48107000F7B2C6 /* AppDelegate.swift in Sources */,
+				8045D6B91E48206F00F7B2C6 /* LiveViewController.swift in Sources */,
+				8045D6B01E48201F00F7B2C6 /* BaseViewController.swift in Sources */,
+				8045D6C11E48208300F7B2C6 /* ProfileViewController.swift in Sources */,
+				8045D6BD1E48207800F7B2C6 /* FollowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +506,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = CCDouYuZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CC.CCDouYuZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +520,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = CCDouYuZB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CC.CCDouYuZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -503,6 +603,7 @@
 				8045D69F1E48107100F7B2C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8045D6A01E48107100F7B2C6 /* Build configuration list for PBXNativeTarget "CCDouYuZBTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +612,7 @@
 				8045D6A21E48107100F7B2C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8045D6A31E48107100F7B2C6 /* Build configuration list for PBXNativeTarget "CCDouYuZBUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +621,7 @@
 				8045D6A51E48107100F7B2C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
